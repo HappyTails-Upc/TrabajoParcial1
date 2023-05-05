@@ -1,0 +1,119 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para los formularios */
+.form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+/* Estilos para el tipo de servicio */
+.servicio {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.servicio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    display: block;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #777;
+}
+
+/* Estilos para el resumen de pago */
+.resumen {
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resumen h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+table .total td:first-of-type {
+    font-weight: bold;
+}
+
+table .total td:last-of-type {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
