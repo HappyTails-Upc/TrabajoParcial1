@@ -11,13 +11,19 @@ import { ExpPanelContentComponent } from './exp-panel-content/exp-panel-content.
 import {MatExpansionModule} from "@angular/material/expansion";
 import { CardContentComponent } from './card-content/card-content.component';
 import {MatCardModule} from "@angular/material/card";
+import { PublicarServicioComponent } from './publicar-servicio/publicar-servicio.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarContentComponent,
     ExpPanelContentComponent,
-    CardContentComponent
+    CardContentComponent,
+    PublicarServicioComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,11 @@ import {MatCardModule} from "@angular/material/card";
     MatIconModule,
     MatButtonModule,
     MatExpansionModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
