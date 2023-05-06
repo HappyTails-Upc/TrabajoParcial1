@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
-  selector: 'app-happytails-servicio',
-  templateUrl: './happytails-servicio.component.html',
-  styleUrls: ['./happytails-servicio.component.css']
+  selector: 'app-reserva-servicio',
+  templateUrl: './reserva-servicio.component.html',
+  styleUrls: ['./reserva-servicio.component.css']
 })
-export class HappytailsServicioComponent implements OnInit {
+export class ReservaServicioComponent {
+
   contactoForm: FormGroup;
 
   constructor(private fb: FormBuilder, private http: HttpClient) {
@@ -17,9 +18,6 @@ export class HappytailsServicioComponent implements OnInit {
       telefono: ['', [Validators.required, Validators.pattern('[0-9]+')]],
       mensaje: ['', Validators.required]
     });
-  }
-
-  ngOnInit(): void {
   }
 
   enviarMensaje(): void {
@@ -42,5 +40,6 @@ export class HappytailsServicioComponent implements OnInit {
       console.error('Formulario inválido.');
     }
   }
+
 
 }

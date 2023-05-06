@@ -1,70 +1,71 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tu Reserva</title>
-	<link rel="stylesheet" type="text/css" href="happytails-servicio.component.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Reserva</title>
+  <link rel="stylesheet" type="text/css" href="reserva-servicio.component.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="container">
-		<h1>Tu Reserva</h1>
-		<div class="form">
-			<form (submit)="realizarReserva()">
-				<div class="info">
-					<div class="input-group">
-						<label for="direccion">Dirección del cliente:</label>
-						<input type="text" id="direccion" name="direccion" required>
-					</div>
-					<div class="input-group">
-						<label for="fecha_inicio">Fecha de inicio:</label>
-						<input type="date" id="fecha_inicio" name="fecha_inicio" required>
-					</div>
-					<div class="input-group">
-						<label for="fecha_termino">Fecha de término:</label>
-						<input type="date" id="fecha_termino" name="fecha_termino" required>
-					</div>
-				</div>
-				<div class="servicio">
-					<h2>Tipo de Servicio</h2>
-					<div class="input-group">
-						<input type="radio" id="basico" name="tipo" value="basico" checked>
-						<label for="basico">
-							Básico
-							<span class="descripcion">Servicio Básico</span>
-						</label>
-					</div>
-					<div class="input-group">
-						<input type="radio" id="premium" name="tipo" value="premium">
-						<label for="premium">
-							Premium
-							<span class="descripcion">Ten un servicio con seguimiento personalizado para tu mascota</span>
-						</label>
-					</div>
-				</div>
-				<div class="resumen">
-					<h2>Resumen de Pago</h2>
-					<table>
-						<tr>
-							<td>Servicio Básico</td>
-							<td>S/30 por día</td>
-							<td>4 días</td>
-							<td>S/120</td>
-						</tr>
-						<tr>
-							<td>Servicio Premium</td>
-							<td>S/50 por día</td>
-							<td>4 días</td>
-							<td>S/200</td>
-						</tr>
-						<tr class="total">
-							<td>Total:</td>
-							<td colspan="3">S/320</td>
-						</tr>
-					</table>
-					<button type="submit">Realizar Reserva</button>
-				</div>
-			</form>
-		</div>
-	</div>
+<div class="container">
+  <h1>Tu Reserva</h1>
+  <div class="form">
+    <form >
+      <div class="info">
+        <div class="input-group">
+          <label for="direccion">Dirección del cliente:</label>
+          <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <div class="input-group">
+          <label for="fecha_inicio">Fecha de inicio:</label>
+          <input type="date" id="fecha_inicio" name="fecha_inicio" required>
+        </div>
+        <div class="input-group">
+          <label for="fecha_termino">Fecha de término:</label>
+          <input type="date" id="fecha_termino" name="fecha_termino" required>
+        </div>
+      </div>
+      <div class="servicio">
+        <h2>Tipo de Servicio</h2>
+        <div class="input-group">
+          <input type="radio" id="basico" name="tipo" value="basico" checked>
+          <label for="basico">
+            Básico
+            <span class="descripcion">Servicio Básico</span>
+          </label>
+        </div>
+        <div class="input-group">
+          <input type="radio" id="premium" name="tipo" value="premium">
+          <label for="premium">
+            Premium
+            <span class="descripcion">Ten un servicio con seguimiento personalizado para tu mascota</span>
+          </label>
+        </div>
+      </div>
+      <div class="resumen">
+        <h2>Resumen de Pago</h2>
+        <table>
+          <tr>
+            <td>Servicio Básico</td>
+            <td>S/30 por día</td>
+            <td>4 días</td>
+            <td>S/120</td>
+          </tr>
+          <tr>
+            <td>Servicio Premium</td>
+            <td>S/50 por día</td>
+            <td>4 días</td>
+            <td>S/200</td>
+          </tr>
+          <tr class="total">
+            <td>Total:</td>
+            <td colspan="3">S/320</td>
+          </tr>
+        </table>
+        <button type="submit">Realizar Reserva</button>
+      </div>
+    </form>
+  </div>
+</div>
 </body>
 </html>

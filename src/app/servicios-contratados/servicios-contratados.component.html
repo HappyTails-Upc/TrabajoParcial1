@@ -1,0 +1,24 @@
+
+<h2 class="title-section">Servicios contratados</h2>
+<div class="card-content">
+
+  <mat-card *ngFor="let card of cardList" class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        {{card.title}}
+
+      </mat-card-title>
+      <mat-card-subtitle>
+        <mat-icon *ngIf="card.walker">directions_walk</mat-icon>
+        <mat-icon *ngIf="card.trainer">brightness_auto</mat-icon>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="card.imageUrl" alt="{{card.title}}">
+    <mat-card-content class="mat-card">
+      <p>
+        El servicio dado por {{card.title}} fue el {{card.content}}
+      </p>
+    </mat-card-content>
+
+  </mat-card>
+</div>

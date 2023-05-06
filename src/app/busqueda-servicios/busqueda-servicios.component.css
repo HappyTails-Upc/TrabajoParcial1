@@ -1,0 +1,146 @@
+
+.example-card {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.example-card img {
+  max-width: 50%;
+  max-height: 200px;
+  object-fit: cover;
+  flex: 1;
+}
+
+.mat-card-content {
+  flex: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px 120px;
+  padding: 20px; /* Agregamos un padding de 20px */
+  gap: 20px;
+
+  max-width: 650px;
+}
+
+
+
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.form-group {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: calc(33.33333333% - 20px);
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.form-group + .form-group {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 3cm;
+  font-weight: bold;
+  color: black;
+}
+
+input[type="text"], input[type="date"], select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  margin-right: 3cm;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+
+
+.container {
+  position: absolute;
+  left: 1300px; /* cambia este valor según la ubicación que desees */
+  top: 380px; /* cambia este valor según la ubicación que desees */
+
+  width: 80%;
+  height: 60%;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.filters {
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 30%;
+}
+
+.filters h2 {
+  margin-bottom: 0.5rem;
+}
+
+.title-section{
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin: 60px 120px;
+}
+
+.filter {
+  margin-bottom: 1rem;
+}
+
+.filter label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.filter select{
+
+}
+.filter input[type="range"] {
+  display: block;
+  width: 100%;
+}
+.filter input[type="range"] {
+  margin-top: 0.5rem;
+}
+.filter p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.checkbox {
+  display: flex;
+  align-items: center
+}

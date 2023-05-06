@@ -1,0 +1,30 @@
+
+
+<mat-toolbar class="toolbar-content">
+  <a mat-button style="font-size: 36px; color: rgb(255, 128, 0);" routerLink="landing">HappyTails</a>
+  <span class="example-spacer"></span>
+
+  <a mat-button routerLink="seach-services">Buscar un servicio</a>
+  <span class="spacer"></span>
+  <a mat-button routerLink="publish-service">Publicar un servicio</a>
+  <span class="spacer"></span>
+  <a mat-button>Ayuda</a>
+  <span class="spacer"></span>
+</mat-toolbar>
+<div class="exPanel-content">
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Perfil
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a mat-button>Editar Perfil</a>
+      <a mat-button routerLink="pets">Mis Mascotas</a>
+      <a mat-button routerLink="services">Historial de servicios</a>
+      <a mat-button routerLink="favorites-services">Mis Favoritos</a>
+      <a mat-button>Salir</a>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

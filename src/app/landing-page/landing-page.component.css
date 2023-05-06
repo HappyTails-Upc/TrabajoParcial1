@@ -1,0 +1,333 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ======================== Reset styles ========================  */
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button__primary{
+  background-color: #fbb847;
+  border: none;
+  color: black;
+  min-width: 90px;
+  display: inline-block;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+
+}
+
+.button__secondary{
+  background-color: transparent;
+  color: black;
+  background-color: #fbb847;
+  min-width: 90px;
+  display: inline-block;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  border: none;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+
+}
+
+/* ======================== Header ======================== */
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+
+}
+.header-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__img{
+  height: 100%;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul li a{
+  color: black;
+  font-size: 1.4rem;
+}
+
+/* ======================== Header ======================== */
+
+/* ======================== presentation section ======================== */
+
+.presentation-section{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.presentation {
+  max-width: 85%;
+  display: flex;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.presentation__img{
+  width: 50%;
+  padding: 8rem;
+}
+
+.presentation__info{
+  width: 50%;
+}
+.presentation__info h1{
+  font-size: 3.8rem;
+  margin-bottom: 2rem;
+}
+.presentation__info p{
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.presentation__form{
+  width: 100%;
+  max-width: 50rem;
+  background-color: #fff389;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.8rem;
+
+}
+
+.presentation__form > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+
+}
+.presentation__form__radio{
+  display: flex;
+  border-radius: 1.6rem;
+  background-color: #fffcdd;
+  padding: 0.8rem;
+}
+.presentation__form__radio h4{
+  font-size: 1.2rem;
+  color: #eeb148;
+  margin-bottom: 0.8rem;
+}
+.presentation__form__radio p{
+  font-size: 1rem;
+  color: black;
+}
+::placeholder {
+  color: black;
+}
+
+
+.form__input{
+  background-color: transparent;
+  border: 2px solid #eeb148;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  color: black;
+  display: inline-block;
+}
+
+/* ======================== presentation section ======================== */
+
+/* ======================== about-us-app ======================== */
+
+
+.about-us-app-section{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.about-us-app {
+  max-width: 85%;
+  display: flex;
+  padding-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.about-us-app h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 12rem;
+  margin-top: 4rem;
+}
+
+.about-us-app > div{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.about-us-app__item{
+  text-align: center;
+  max-width: 20rem;
+
+}
+.about-us-app__item img{
+  max-width: 8rem;
+  margin-bottom: 4rem;
+}
+.about-us-app__item h3{
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 2rem;
+
+}
+.about-us-app__item p{
+  font-size: 1.6rem;
+}
+/* ======================== about-us-app ======================== */
+
+/* ======================== about-us ======================== */
+
+.about-us-section{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.about-us{
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+}
+
+.about-us > div {
+  display: flex;
+
+}
+.about-us__info{
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+}
+.about-us__info p{
+  font-size: 1.6rem;
+  max-width: 33rem;
+  margin-left: 4rem;
+}
+
+.about-us__info h2{
+  font-size: 2rem;
+  margin-left: 8rem;
+}
+
+.about-us__app{
+  align-items: center;
+
+}
+.about-us__app__text{
+  margin-bottom: 4rem;
+}
+.about-us__app__text h3{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.about-us__app__text p{
+  font-size: 1.6rem;
+  max-width: 30rem;
+}
+.about-us__app__links {
+  margin-left: 8rem;
+  display: flex;
+  gap: 4rem;
+}
+.about-us__app__links img{
+  width: 20rem;
+}
+/* ======================== about-us ======================== */
+
+/* ======================== Contacto ======================== */
+.contact-section{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.contact{
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+
+}
+.contact__info{
+  margin-right: 16rem;
+}
+.contact__info h3{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.contact__info li{
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact__info img{
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.contact-us__form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-us__form > div{
+  display: flex;
+  gap: 2rem;
+}
