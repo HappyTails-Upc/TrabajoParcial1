@@ -1,0 +1,22 @@
+
+
+<h2 class="title-section">Mascotas</h2>
+<div class="card-content">
+
+  <mat-card *ngFor="let card of petsList" class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        {{card.nombre}}
+
+      </mat-card-title>
+      <mat-card-subtitle>
+        {{card.raza}}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="card.imagen" alt="{{card.nombre}}">
+    <mat-card-content class="mat-card">
+      <a mat-button class="button">Ver mas informacion</a>
+    </mat-card-content>
+
+  </mat-card>
+</div>

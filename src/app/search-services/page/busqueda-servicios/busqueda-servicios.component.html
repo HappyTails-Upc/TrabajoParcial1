@@ -1,0 +1,102 @@
+
+<h1 class="title-section">Búsqueda de Adiestradores y Paseadores de Mascotas</h1>
+<div class="card-content">
+
+  <body>
+
+  <form>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección">
+      </div>
+      <div class="form-group">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+      </div>
+      <div class="form-group">
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" name="servicio">
+          <option value="">Selecciona un servicio</option>
+          <option value="adiestrador">Adiestrador</option>
+          <option value="paseador">Paseador</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <input type="submit" value="Buscar">
+      </div>
+    </div>
+  </form>
+  <!-- Aquí puedes agregar el resultado de la búsqueda -->
+
+
+
+  </body>
+
+  <div class="cards">
+
+    <mat-card *ngFor="let card of cardList" class="example-card" >
+      <mat-card-header >
+        <mat-card-title >
+          {{card.title}}
+        </mat-card-title>
+        <mat-card-subtitle>
+          <mat-icon *ngIf="card.walker">directions_walk</mat-icon>
+          <mat-icon *ngIf="card.trainer">brightness_auto</mat-icon>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="card.imageUrl" alt="{{card.title}}">
+      <mat-card-content class="mat-card">
+
+        <p>
+          {{card.distance}}
+        </p>
+
+        <p>
+          El servicio dado por {{card.title}} cuesta un total de S/{{card.content}} por día
+        </p>
+
+        <a mat-button routerLink="profile-service"> Ver mas</a>
+      </mat-card-content>
+
+    </mat-card>
+
+  </div>
+
+
+</div>
+
+<div class="container">
+  <div class="filters">
+    <h2>Otros filtros:</h2>
+    <div class="filter">
+      <label for="peso">Peso de la mascota:</label>
+      <select id="peso">
+        <option value="0-15">0-15 kg</option>
+        <option value="15-30">15-30 kg</option>
+        <option value="+30">+30 kg</option>
+      </select>
+    </div>
+    <div class="filter">
+      <label for="precio">Rango de precio:</label>
+      <input type="range" id="precio" name="precio" min="5" max="30" value="5">
+      <p>S/5 - S/<span id="precioOutput">5</span></p>
+    </div>
+    <div class="filter">
+      <label>Características del experto:</label>
+      <div class="checkbox">
+        <input type="checkbox" id="medicamentos" name="medicamentos">
+        <label for="medicamentos">Suministro de medicamentos</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="variedad" name="variedad">
+        <label for="variedad">Variedad de mascotas</label>
+      </div>
+      <div class="btn-container">
+        <button type="button" id="aceptar">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>

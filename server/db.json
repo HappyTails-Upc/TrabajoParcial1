@@ -1,0 +1,300 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellidos": "Pérez González",
+      "telefono": "987654321",
+      "DNI": "12345678",
+      "correo": "juan.perez@example.com",
+      "clave": "password123",
+      "imagen": "https://th.bing.com/th/id/OIP.0N_rVmotKyQKkv6hD6ABIgHaJh?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellidos": "Gómez López",
+      "telefono": "912345678",
+      "DNI": "87654321",
+      "correo": "maria.gomez@example.com",
+      "clave": "securepass456",
+      "imagen": "https://www.freejpg.com.ar/asset/900/9c/9cbc/F100012424.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellidos": "López Hernández",
+      "telefono": "923456789",
+      "DNI": "13579246",
+      "correo": "carlos.lopez@example.com",
+      "clave": "secretpass789",
+      "imagen": "https://image.freepik.com/foto-gratis/retrato-hombre-blanco-aislado_53876-40306.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura",
+      "apellidos": "Martínez Rodríguez",
+      "telefono": "934567890",
+      "DNI": "24681357",
+      "correo": "laura.martinez@example.com",
+      "clave": "password321",
+      "imagen": "https://th.bing.com/th/id/R.47020fa3cec6a4d85f226efd1928897c?rik=pmOAnySnaUEY7A&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "apellidos": "Ramírez Gutiérrez",
+      "telefono": "945678901",
+      "DNI": "57913562",
+      "correo": "pedro.ramirez@example.com",
+      "clave": "securepass987",
+      "imagen": "https://th.bing.com/th/id/R.1c88916e0bd7605dd81e8b904ed098ea?rik=dHArRDlw1nAyvw&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 6,
+      "nombre": "Ana",
+      "apellidos": "Sánchez Fernández",
+      "telefono": "956789012",
+      "DNI": "46802479",
+      "correo": "ana.sanchez@example.com",
+      "clave": "password654",
+      "imagen": "https://th.bing.com/th/id/OIP.10Ng9rvLti28eHNsbfrlngHaHa?pid=ImgDet&rs=1"
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "correo": "juan.perez@example.com",
+      "clave": "password123"
+    },
+    {
+      "id": 2,
+      "correo": "maria.gomez@example.com",
+      "clave": "securepass456"
+    },
+    {
+      "id": 3,
+      "correo": "carlos.lopez@example.com",
+      "clave": "secretpass789"
+    },
+    {
+      "id": 4,
+      "correo": "laura.martinez@example.com",
+      "clave": "password321"
+    },
+    {
+      "id": 5,
+      "correo": "pedro.ramirez@example.com",
+      "clave": "securepass987"
+    },
+    {
+      "id": 6,
+      "correo": "ana.sanchez@example.com",
+      "clave": "password654"
+    }
+  ],
+
+  "pets": [
+    {
+      "id": 1,
+      "id_due": 1,
+      "nombre": "Max",
+      "raza": "Labrador Retriever",
+      "tamano": 55,
+      "castrado": true,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://www.101dogbreeds.com/wp-content/uploads/2018/10/Labrador-Retriever-Images.jpg"
+    },
+    {
+      "id": 2,
+      "id_due": 3,
+      "nombre": "Luna",
+      "raza": "Golden Retriever",
+      "tamano": 56,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.0cd5b29cc01d8634437d5c3c8a6d7d19?rik=f54t3M%2b6drZkMw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fvelka%2fgolden-retriever-dog.jpg&ehk=5mFzmXCBdKFa0zyIy5j58erNpfMqrcbIc%2fw2qkfgbK4%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 3,
+      "id_due": 5,
+      "nombre": "Bella",
+      "raza": "Bulldog Francés",
+      "tamano": 30,
+      "castrado": true,
+      "vacunado": false,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.49ecfb460365027bfece8251c766676f?rik=1%2fFG%2fLdBhNVzJg&riu=http%3a%2f%2fwww.perrosamigos.com%2fUploads%2fperrosamigos.com%2fImagenesGrandes%2fbulldog-frances-7.jpg&ehk=0pF6PO2AaNFdwQffZDDS8Ad8ykWa2Ss83eOsLijQ4fI%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 4,
+      "id_due": 2,
+      "nombre": "Rocky",
+      "raza": "Boxer",
+      "tamano": 63,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.cccbb9ca067f441124231a01dab0fc47?rik=fRB3dDczjdYq2g&riu=http%3a%2f%2fwww.mascotarios.org%2fwp-content%2fgallery%2fboxer%2fboxer11.jpg&ehk=7Fbwm0OjcY279qJ80eTQe4lZRiUyTv%2bbZfpUAPXTG70%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "id_due": 6,
+      "nombre": "Coco",
+      "raza": "Poodle",
+      "tamano": 30,
+      "castrado": true,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.c7c0f58f5a0ce3ac41884828778e2b5f?rik=My0x%2bskMEG%2fkWg&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f35900000%2fStandard-Poodle-standard-poodle-35916977-1026-821.jpg&ehk=M%2bGyeeexfxsmQPYfpfOZySG16mlAZiU1JHaHvpQcZtw%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 6,
+      "id_due": 4,
+      "nombre": "Simba",
+      "raza": "Chihuahua",
+      "tamano": 15,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.b781624a41c8d22c58e851d884e472f6?rik=FpXtmo6Pt2TEhQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f0%2f09%2fChihuahua_01_K.jpg&ehk=J3JWYP4VyYO3qlEov5Ppu8Exy5BhAcg4nx55TU3I%2f5s%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 7,
+      "id_due": 3,
+      "nombre": "Maxi",
+      "raza": "Chihuahua",
+      "tamano": 15,
+      "castrado": true,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.b781624a41c8d22c58e851d884e472f6?rik=FpXtmo6Pt2TEhQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f0%2f09%2fChihuahua_01_K.jpg&ehk=J3JWYP4VyYO3qlEov5Ppu8Exy5BhAcg4nx55TU3I%2f5s%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 8,
+      "id_due": 1,
+      "nombre": "Lola",
+      "raza": "Bulldog Inglés",
+      "tamano": 40,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.0e696923bee74edd2d74a7d7bfaa72db?rik=ln8lFxT8S1MLcw&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 9,
+      "id_due": 5,
+      "nombre": "Milo",
+      "raza": "Shih Tzu",
+      "tamano": 25,
+      "castrado": true,
+      "vacunado": false,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.62dfac5f246a4ea29e0f2bae051bc985?rik=8Fq%2fAQ0lHvH5dg&riu=http%3a%2f%2fwww.101razasdeperros.com%2fimages%2fperros-shih-tzu.jpg&ehk=UQqbXEWx77eavQQWQapJY3TfdM90D31kIalTffJS3hU%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 10,
+      "id_due": 2,
+      "nombre": "Toby",
+      "raza": "Labrador Retriever",
+      "tamano": 55,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.970fa7861695e5fd43560527890be61b?rik=i%2bea88zThmzn2g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-X-glH8fUFpg%2fT6dpP7MIVOI%2fAAAAAAAABRY%2fVmYSfA38Jdk%2fs1600%2fLabrador%2bRetriever%2bPhotos2.jpg&ehk=S3ScQXAiyi1lzqr7PZIlzq%2fEtjdC45AtX0MM2tNo7ok%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 11,
+      "id_due": 6,
+      "nombre": "Lucky",
+      "raza": "Dalmata",
+      "tamano": 60,
+      "castrado": true,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.ffece82949065eb3ece1e01b787903aa?rik=sEf8N0PBGLJDmg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-k913FczAcJM%2fUHF8NrzubAI%2fAAAAAAAAAdc%2fIv1h68xjJNM%2fs1600%2fa_70.jpg&ehk=NUcgJUl9Q5HHLCT8DVNsl2GzJcu9hfoODVaivLJqa54%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 12,
+      "id_due": 4,
+      "nombre": "Simón",
+      "raza": "Labrador Retriever",
+      "tamano": 25,
+      "castrado": false,
+      "vacunado": true,
+      "info_adicional": "",
+      "imagen": "https://th.bing.com/th/id/R.970fa7861695e5fd43560527890be61b?rik=i%2bea88zThmzn2g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-X-glH8fUFpg%2fT6dpP7MIVOI%2fAAAAAAAABRY%2fVmYSfA38Jdk%2fs1600%2fLabrador%2bRetriever%2bPhotos2.jpg&ehk=S3ScQXAiyi1lzqr7PZIlzq%2fEtjdC45AtX0MM2tNo7ok%3d&risl=&pid=ImgRaw&r=0"
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "id_profile": 1,
+      "about": "",
+      "paseador": true,
+      "adiestrador": false,
+      "paseador_t": 25,
+      "adiestrador_t": 15,
+      "n_disponible": [
+        "2023-06-01",
+        "2023-06-03",
+        "2023-06-05",
+        "2023-06-07"
+      ],
+      "distrito": "Santiago de Surco"
+    },
+    {
+      "id": 2,
+      "id_profile": 3,
+      "about": "",
+      "paseador": false,
+      "adiestrador": true,
+      "paseador_t": 20,
+      "adiestrador_t": 30,
+      "n_disponible": [
+        "2023-06-02",
+        "2023-06-04",
+        "2023-06-06",
+        "2023-06-08"
+      ],
+      "distrito": "Miraflores"
+    },
+    {
+      "id": 3,
+      "id_profile": 5,
+      "about": "",
+      "paseador": true,
+      "adiestrador": true,
+      "paseador_t": 10,
+      "adiestrador_t": 20,
+      "n_disponible": [
+        "2023-06-01",
+        "2023-06-03",
+        "2023-06-05",
+        "2023-06-07"
+      ],
+      "distrito": "San Miguel"
+    },
+    {
+      "id": 4,
+      "id_profile": 2,
+      "about": "",
+      "paseador": true,
+      "adiestrador": false,
+      "paseador_t": 24,
+      "adiestrador_t": 26,
+      "n_disponible": [
+        "2023-06-02",
+        "2023-06-04",
+        "2023-06-06",
+        "2023-06-08"
+      ],
+      "distrito": "Los Olivos"
+    }
+
+  ]
+}
